@@ -7,9 +7,13 @@ import hero from "@/assets/hero.webp"
 export default function Home() {
   return (
     <div className="">
-      {/* TODO: Add Navbar */}
-      <Image className="h-30" src={hero} alt="Hero" />
-      Hello World
+      {/* HERO SECTION / Billboards */}
+      {/* <Image className="h-30" src={hero} alt="Hero" /> */}
+      
+
+      {/* TODO: Feature Product - fetch it somewhere lol*/}
+      <h1>Feature Products</h1>
+
     </div>
   );
 }
